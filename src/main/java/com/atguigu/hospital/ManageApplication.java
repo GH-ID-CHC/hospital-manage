@@ -8,6 +8,7 @@ public class ManageApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ManageApplication.class, args);
+		System.out.println("访问地址：http://localhost:9998");
 	}
 
 }
